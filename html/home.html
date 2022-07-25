@@ -1,0 +1,34 @@
+<body>
+    <div class="home">
+        <div class="content">
+           <div class="stars"></div><!--stars后来在哪-->
+            <img class="bgc" src="/img/home1.jpg" width="100%">
+            <h3 class="title">欢迎来到我的个人网站</h3>
+            <img class="icons" src="/img/home2.jpg">
+            <div class='ribbon'><!--ribbon作用-->
+                <a href='home.html'><span>home</span></a>
+                <a href='about.html'><span>about</span></a>
+                <a href='form.html'><span>form</span></a>
+            </div>
+        </div>
+        <div class="icons"><!--图标-->
+            <div class="icons_items">
+                <img class="icons_items_imgs" src="/img/home3.jpg">
+                <span>教学楼</span>
+        </div>
+        </div>
+        <div class="introduce">
+            <div class="introduce_item">
+                <img class="introduce_item_img" src="/img/home4.jpg">
+                <span class="introduce_item_title">天空</span>
+            </div>
+            </div>
+        <audio autoplay="autoplay" id="audio" loop="loop"><source src="./video/music.mp3" type="audio/MP3"></audio>
+        <img class="music_img" src="/img/home5.jpg">
+    </div>
+</body>
+<script>
+    let music = document.getElementById('audio')
+    document.body.addEventListener('mousemove', function() {setTimeout(() => {music.play();}, 2000);}, false);
+</script>
+</html>
